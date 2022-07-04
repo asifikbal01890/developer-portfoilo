@@ -12,7 +12,7 @@ h1 {
     color: orange;
 }
 
-section {
+.fexible {
     display: flex;
     margin-bottom: 100px;
 
@@ -45,4 +45,30 @@ section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-div {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 50px;
+}
+
+.experience-section {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-web {
+    border-left: 7px solid tomato;
+}
+
+#baby-web {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
